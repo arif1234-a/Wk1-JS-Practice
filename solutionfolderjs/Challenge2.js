@@ -14,7 +14,7 @@ function demeritPoints() {
         
       if (points >= 12) {
         return "License suspended";
-      } // checks if the the number of points is equal or greater than 12. If so it prints "License suspended"
+      } // checks if the the number of points is equal to or greater than 12. If so it prints "License suspended".
       else {
         return `Points:${points}`;
       }
